@@ -2,7 +2,7 @@ from Library import *
 
 def main():
     # Aplicacion de los Diccionarios
-  #  persona = {
+    #  persona = {
     #  "Nombre": "Yonatha"
     #   "Apellido": "Mendoza"
     #    "Edad": 23
@@ -10,8 +10,8 @@ def main():
 
  persona = {
      "datospersonales":{
-    "Nombre": "Yonatha",
-       "Apellido": "Mendoza",
+        "Nombre": "Yonatha",
+        "Apellido": "Mendoza",
         "Edad": 23
      },
      "salarial": {
@@ -25,6 +25,8 @@ def main():
 #persona["Nombre"] = "Molina"
 #print(f"{persona['Nombre']}{persona['Apellido']})
 #print(f"Nombre: {persona["datospersonales"]['nombre']}")
+print(f"Nombre: {persona['datospersonales']['nombre']} Apellido: {persona['datospersonales']['nombre']}  ")
+
 
 if __name__ == "__main__":
     main()
